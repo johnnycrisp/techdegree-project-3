@@ -25,14 +25,14 @@
             <hr>
         </section>
         <main>
-            <form action="submit" method="post"></form>
+            <form action="submit" method="post">
             <fieldset class="contact_section">
                 <legend>Contact Information</legend>
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="user_name" required placeholder="Required.">
 
                 <label for="email">Email Address</label>
-                <input type="text" id="email" name="user_email" required placeholder="Required.">
+                <input type="email" id="email" name="user_email" required placeholder="Required.">
 
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="user_phone" placeholder="Your phone number (if you have one).">
@@ -99,7 +99,7 @@
                     <option value="WY">Wyoming</option>
                 </select>
 
-                <label for="zip">Zip Code</label>
+                <label for="zip" class="zip_label">Zip Code</label>
                 <input type="text" id="zip" name="user_zip" placeholder="Your zip code.">
             </fieldset>
             <fieldset class="newsletter_section">
@@ -128,12 +128,13 @@
                 <div class="textarea_container">
 
                     <label for="other_topics">Other topics you'd like to hear about</label><textarea id="other_topics"
-                        name="user_topics_suggestions"></textarea>
+                        name="user_topics_suggestions" placeholder="Include some suggestions for other topics."></textarea>
 
 
                 </div>
                 <button type="submit">Sign Up</button>
             </fieldset>
+            </form>
         </main>
     </div>
     <footer>

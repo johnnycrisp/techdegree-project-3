@@ -15,7 +15,7 @@ textarea {
 input[type="text"]:focus,
 textarea:focus,
 input[type="tel"]:focus {
-  background-color: rgb(228, 213, 193);
+  background-color: rgb(134, 232, 243);
   transition: 1.5s;
 }
 
@@ -88,6 +88,7 @@ fieldset {
 
 .newsletter_section {
   padding-bottom: 0;
+  margin-top:24px;
 }
 
 .contact_section,
@@ -125,7 +126,7 @@ textarea {
   min-height: 100px;
   width: 100%;
   border: none;
-  background: rgb(209, 217, 224);
+  background:  rgb(229, 229, 216);
   flex: 1;
   margin: 4px 0;
   border-radius: 6px;
@@ -135,7 +136,7 @@ input[type="text"],
 input[type="tel"],
 select {
   border: none;
-  background: rgb(209, 217, 224);
+  background: rgb(229, 229, 216);
   flex: 1;
   margin: 8px 0 14px;
   border-radius: 6px;
@@ -144,6 +145,7 @@ select {
 
 .contact_section {
   border-bottom: 2px solid rgb(23, 23, 42);
+  margin-top: 24px;
 }
 
 footer {
@@ -189,7 +191,7 @@ input::placeholder {
   }
 
   .wrapper {
-    max-width: 1000px;
+    max-width: 960px;
     margin: 0 auto
   }
 }
